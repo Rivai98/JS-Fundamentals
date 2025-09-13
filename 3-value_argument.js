@@ -2,8 +2,11 @@ let arg = process.argv ;
 if(arg[2]== null ){
     console.log("No argument"); 
 }else{
+    let result = "" ; 
     for(i = 2 ; arg[i]!= null ; i++){
-        console.log(arg[i]); 
+        result += arg[i]+ " ";  
+        
     }
+    console.log(result); 
 
 }
