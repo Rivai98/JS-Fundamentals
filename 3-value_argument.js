@@ -1,2 +1,2 @@
-let args = process.argv.slice(2) ; 
-console.log(args!== undefined ? args[0]: "No argument"); 
+let args = process.argv ; 
+console.log(args[2]!=null ? args[2] : "No argument" ); 
