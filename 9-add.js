@@ -1,6 +1,6 @@
 function sum(first_number, second_number){
     if(isNaN(first_number) && isNaN(second_number)){
-        console.log( NaN) ; 
+        return NaN 
     }
     return first_number + second_number; 
 }
