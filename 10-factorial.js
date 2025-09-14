@@ -1,13 +1,11 @@
 function fact(number){
-    let result = 1 ; 
+   
    if (number === 1 || isNaN(number) || number===0  ){
     return 1 ; 
    }
-   for (i = number ; i > 0 ; i-- ){
-    result *=i;      
-   }
-   return result ;
 
+   return number * fact(number-1); 
+   
 }
 
 let args = process.argv.slice(2) ; 
