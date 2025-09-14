@@ -1,4 +1,7 @@
 let arr = ["C is fun", "Python is cool", "JavaScript is amazing"];
-for(i = 0 ; i < arr.length ; i++ ){ 
-    console.log(arr[i]); 
-}
+let counter = arr.length ;
+let i = 0 ; 
+while(counter-- ){
+    console.log(arr[i]);
+    i++; 
+} 
